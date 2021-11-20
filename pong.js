@@ -60,12 +60,12 @@
                 hit = true;
             }
         }
-        if(b.x <= a.x && b.x + b.width >= a.x + a.width){
+        else if(b.x <= a.x && b.x + b.width >= a.x + a.width){
             if(b.y <= a.y && b.y + b.height >= a.y + a.height){
                 hit = true;
             }
         }
-        if(a.x <= b.y && a.x + a.width >= b.x + b.width){
+        else if(a.x <= b.y && a.x + a.width >= b.x + b.width){
             if(a.y <= b.y && a.y + a.height >= b.y + b.height){
                 hit = true;
             }
